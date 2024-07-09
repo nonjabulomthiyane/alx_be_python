@@ -29,3 +29,4 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(5, 2), 2.5)
         self.assertIsNone(self.calc.divide(3, 0))  # Test division by zero
         # Additional tests including edge cases.
+python -m unittest test_simple_calculator.py
