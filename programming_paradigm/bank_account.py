@@ -46,7 +46,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-python main-0.py deposit:50
-python main-0.py withdraw:20
-python main-0.py withdraw:150
-python main-0.py display
